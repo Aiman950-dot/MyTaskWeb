@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | MyTasks Web</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-gradient-to-tr from-violet-100 to-indigo-100 min-h-screen text-gray-800"
+  >
+    <!-- Navigation -->
+    <nav
+      class="bg-indigo-950 shadow-md px-6 py-4 flex justify-between items-center sticky top-0 z-10"
+    >
+      <h1 class="text-xl font-bold text-green-400">MyTasks Web</h1>
+      <ul class="flex gap-6 font-medium text-sm">
+        <li><a href="#" class="text-amber-50 hover:underline">Home</a></li>
+        <li>
+          <a href="add-task.html" class="text-amber-50 hover:underline"
+            >Tasks</a
+          >
+        </li>
+        <li><a href="#" class="text-amber-50 hover:underline">Profile</a></li>
+        <li>
+          <a href="index.html" class="text-red-500 hover:underline">Logout</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Welcome Header -->
+    <header class="text-center my-8">
+      <h2 class="text-3xl font-bold text-indigo-700">Welcome, Aiman 👋</h2>
+      <p class="text-gray-600 mt-1">Here's your task list for today</p>
+    </header>
+
+    <!-- Task Cards -->
+    <main
+      class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10"
+    >
+      <!-- Task Card -->
+      <div class="bg-white p-5 rounded-xl shadow-md hover:shadow-xl transition">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-semibold text-indigo-700">
+            Design Landing Page
+          </h3>
+          <span>✔️</span>
+        </div>
+        <p class="text-sm text-gray-600 mb-2">
+          Create a modern and responsive landing page for the project.
+        </p>
+        <p class="text-xs text-gray-500">Due: Today, 3:00 PM</p>
+      </div>
+
+      <!-- Repeat 4 more cards -->
+      <div class="bg-white p-5 rounded-xl shadow-md hover:shadow-xl transition">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-semibold text-indigo-700">Fix Login Bug</h3>
+          <span class="text-yellow-500">⏳</span>
+        </div>
+        <p class="text-sm text-gray-600 mb-2">
+          Resolve login validation issue on mobile view.
+        </p>
+        <p class="text-xs text-gray-500">Due: Today, 5:30 PM</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl shadow-md hover:shadow-xl transition">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-semibold text-indigo-700">Client Meeting</h3>
+          <span class="text-blue-500">📅</span>
+        </div>
+        <p class="text-sm text-gray-600 mb-2">
+          Discuss app updates and feedback with the client.
+        </p>
+        <p class="text-xs text-gray-500">Due: Tomorrow, 11:00 AM</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl shadow-md hover:shadow-xl transition">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-semibold text-indigo-700">
+            Update GitHub Repo
+          </h3>
+          <span class="text-orange-500">🔄</span>
+        </div>
+        <p class="text-sm text-gray-600 mb-2">
+          Push the latest commits and update the README file.
+        </p>
+        <p class="text-xs text-gray-500">Due: Today, 8:00 PM</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl shadow-md hover:shadow-xl transition">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-semibold text-indigo-700">
+            Prepare Presentation
+          </h3>
+          <span class="text-purple-500">🎤</span>
+        </div>
+        <p class="text-sm text-gray-600 mb-2">
+          Finalize the pitch deck for tomorrow’s product demo.
+        </p>
+        <p class="text-xs text-gray-500">Due: Tonight, 9:00 PM</p>
+      </div>
+
+    </main>
+    <script src="dashboardScript.js"></script>
+  </body>
+</html>
