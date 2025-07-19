@@ -30,7 +30,7 @@ MyTasks Web is a simple and responsive task management interface where users can
 
 1. **Download or Clone the Repository**
    ```bash
-   git clone https://github.com/aiman95-dot/mytasks-web.git
+   git clone https://github.com/Aiman950-dot/MyTaskWeb.git
 
 2. and run command npm run dev 
 
